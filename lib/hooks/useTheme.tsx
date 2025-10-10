@@ -30,13 +30,16 @@ export function ThemeProvider({
   storageKey = "portfolio-theme",
   ...props
 }: ThemeProviderProps) {
-  const [theme, setTheme] = useState<Theme>(() => {
-    if (typeof window !== "undefined") {
-      const storedTheme = localStorage.getItem(storageKey) as Theme;
-      return storedTheme || defaultTheme;
+  const [theme, setTheme] = useState<Theme>(defaultTheme);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+    const storedTheme = localStorage.getItem(storageKey) as Theme;
+    if (storedTheme) {
+      setTheme(storedTheme);
     }
-    return defaultTheme;
-  });
+  }, [storageKey]);
 
   useEffect(() => {
     const root = window.document.documentElement;

@@ -12,6 +12,7 @@ export default function Navigation() {
   const [activeSection, setActiveSection] = useState("home");
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   const navItems = [
     { id: "home", label: "Home" },
@@ -23,6 +24,8 @@ export default function Navigation() {
   ];
 
   useEffect(() => {
+    setMounted(true);
+
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
       
@@ -101,8 +104,12 @@ export default function Navigation() {
               className="hover-elevate"
               data-testid="button-theme-toggle"
             >
-              {theme === "dark" ? (
-                <Sun className="h-5 w-5" />
+              {mounted ? (
+                theme === "dark" ? (
+                  <Sun className="h-5 w-5" />
+                ) : (
+                  <Moon className="h-5 w-5" />
+                )
               ) : (
                 <Moon className="h-5 w-5" />
               )}
