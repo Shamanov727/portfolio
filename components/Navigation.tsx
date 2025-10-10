@@ -159,7 +159,7 @@ export default function Navigation() {
         </nav>
 
         {/* Progress bar */}
-        {typeof window !== "undefined" && (
+        {mounted && (
           <motion.div
             className="absolute bottom-0 left-0 h-0.5 bg-primary"
             style={{
