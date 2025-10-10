@@ -165,14 +165,15 @@ export default function Hero() {
           >
             <div className="relative">
               <motion.div
-                className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl"
+                className="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl"
                 whileHover={{ scale: 1.05 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.6, delay: 0.1 }}
               >
                 <Image
                   src="/assets/photo_2025-09-25_06-34-37_1759170772341.jpg"
                   alt="Volodymyr Shamanov - Senior Full-Stack Developer"
                   fill
+                  sizes="(max-width: 768px) 320px, 384px"
                   className="object-cover"
                   data-testid="img-avatar"
                   priority
