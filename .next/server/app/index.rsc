@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[612,["932","static/chunks/932-adf22da2f0b06a61.js","225","static/chunks/225-f60515998a07d2b4.js","177","static/chunks/app/layout-cff1eddd8371e0f7.js"],"Providers"]
+3:I[5244,[],""]
+4:I[3866,[],""]
+5:I[8173,["345","static/chunks/app/not-found-5bd4d4caee9651c5.js"],""]
+6:I[5012,["932","static/chunks/932-adf22da2f0b06a61.js","353","static/chunks/353-1d5ca9364682d393.js","974","static/chunks/app/page-25cdcdb7275f1180.js"],"default"]
+7:I[5984,["932","static/chunks/932-adf22da2f0b06a61.js","353","static/chunks/353-1d5ca9364682d393.js","974","static/chunks/app/page-25cdcdb7275f1180.js"],"default"]
+8:I[4535,["932","static/chunks/932-adf22da2f0b06a61.js","353","static/chunks/353-1d5ca9364682d393.js","974","static/chunks/app/page-25cdcdb7275f1180.js"],"default"]
+9:I[7624,["932","static/chunks/932-adf22da2f0b06a61.js","353","static/chunks/353-1d5ca9364682d393.js","974","static/chunks/app/page-25cdcdb7275f1180.js"],"default"]
+a:I[8091,["932","static/chunks/932-adf22da2f0b06a61.js","353","static/chunks/353-1d5ca9364682d393.js","974","static/chunks/app/page-25cdcdb7275f1180.js"],"default"]
+b:I[7854,["932","static/chunks/932-adf22da2f0b06a61.js","353","static/chunks/353-1d5ca9364682d393.js","974","static/chunks/app/page-25cdcdb7275f1180.js"],"default"]
+c:I[6938,["932","static/chunks/932-adf22da2f0b06a61.js","353","static/chunks/353-1d5ca9364682d393.js","974","static/chunks/app/page-25cdcdb7275f1180.js"],"default"]
+d:I[5166,["932","static/chunks/932-adf22da2f0b06a61.js","353","static/chunks/353-1d5ca9364682d393.js","974","static/chunks/app/page-25cdcdb7275f1180.js"],"default"]
+e:I[6213,[],"OutletBoundary"]
+10:I[6213,[],"MetadataBoundary"]
+12:I[6213,[],"ViewportBoundary"]
+14:I[4835,[],""]
+:HL["/_next/static/css/95e9232478b75df0.css","style"]
+:HL["/_next/static/css/cf8218841ce93ea6.css","style"]
+0:{"P":null,"b":"TwGCHqts1HeHpiIO_1k3x","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/95e9232478b75df0.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/cf8218841ce93ea6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"__variable_f367f3 __variable_9b9fd1 __variable_3c557b","children":[["$","head",null,{"children":["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1"}]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],["$","div",null,{"className":"min-h-screen flex items-center justify-center bg-background","children":["$","div",null,{"className":"text-center","children":[["$","h1",null,{"className":"text-4xl font-bold mb-4","children":"404 - Page Not Found"}],["$","p",null,{"className":"text-muted-foreground mb-8","children":"The page you are looking for does not exist."}],["$","$L5",null,{"href":"/","className":"inline-block px-6 py-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors","children":"Go Home"}]]}]}]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen bg-background text-foreground","children":[["$","$L6",null,{}],["$","div",null,{"className":"min-h-screen","children":[["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{}],["$","$Lb",null,{}],["$","$Lc",null,{}],["$","$Ld",null,{}]]}]]}],null,["$","$Le",null,{"children":"$Lf"}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","LGizP9qtwQQL8HHpEPMiE",{"children":[["$","$L10",null,{"children":"$L11"}],["$","$L12",null,{"children":"$L13"}],null]}]]}],false]],"m":"$undefined","G":["$14","$undefined"],"s":false,"S":true}
+13:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Volodymyr Shamanov- Full-Stack Developer"}],["$","meta","2",{"name":"description","content":"Volodymyr Shamanov- "}]]
+f:null
